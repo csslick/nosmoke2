@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  height: 100vh;    
+  font-family: "나눔고딕" ,"맑은 고딕", sans-serif;
+}
+.app {
+  border: 4px solid #333;
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 60px;
+  font-size: 8vw;
+}
+
+.day {
+  font-size: 3em;
+  color: red;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 20px;
+}

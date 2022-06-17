@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>금연날짜계산앱</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <!-- 경과일 = 오늘 - 금연시작한날  -->
+  <div class="app">
+    <div class="container">
+      <h1>금연관리 앱</h1>
+      <p>금연일로부터 몇일이 지났는지 알려줍니다.</p>
+      <p class="info"><span id="day" class="day">0</span>일이 경과되었습니다.</p>
+      <label>금연시작일 <input id="date" type="date" value="2022-01-01"></label>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
