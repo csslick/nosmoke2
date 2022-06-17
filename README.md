@@ -10,3 +10,4 @@ https://csslick.github.io/nosmoke/
 3. 디자인을 각색하기
 4. 깃허브에 업데이트(html,css,js 코드 분리)
 5. 도움말 콘텐츠 추가 예정
+6. 시간 경과별 내 몸 상태 표시
