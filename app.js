@@ -2,7 +2,8 @@ function initDay() {
 
   let saveDay = localStorage.getItem('startDay');
   let today = new Date().toISOString().slice(0,10);
-  console.log('saveDay = ' + saveDay, 'today = ' + today);
+  console.log('saveDay = ' + saveDay, 'today = ' + today)
+  document.getElementById('date').value = saveDay;
 
   if(saveDay) {
     startDay = saveDay; // 금연시작일 저장값
@@ -39,9 +40,10 @@ function changeDay(startDay) {
   // $('#day').html(result);
 }
 
-
+// 날짜 변경
 $('#date').change(function(){
   let userInputDay = $('#date').val(); // 사용자 입력값
+  localStorage.setItem('startDay', userInputDay); // 저장
   changeDay(userInputDay);
 });
 
