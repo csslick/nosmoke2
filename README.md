@@ -2,7 +2,7 @@
 금연관리앱
 
 ![image](https://user-images.githubusercontent.com/24298382/174220541-7a88330a-b4ad-4691-a1d8-286b813d553a.png)  
-https://csslick.github.io/nosmoke/
+https://csslick.github.io/nosmoke2/
 
 ## 주요내용 및 기능(추가예정)
 1. 날짜입력(금연시작일) 기능: 생각해 보세요
